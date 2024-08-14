@@ -66,10 +66,15 @@
     }
 
     .sec1-right img {
-        width: 100%;
+        width: 50%;
         height: auto;
     }
-
+     .box1{
+        display: none;
+     }
+     .box2{
+        display: none;
+     }
      .nav-right {
         display: none;
     }
@@ -157,29 +162,63 @@
     }
     .sec5 h1 {
         font-size: 28px;
-        margin-left: 20px;
+        margin-left: 100px;
         margin-top: 50px;
-        text-align: center;
+        text-align: left;
     }
 
     .sec5 p {
         font-size: 14px;
-        margin-left: 20px;
+        margin-left: 100px;
         margin-top: 10px;
-        text-align: center;
+        text-align: left;
     }
+
+    .creative{
+        display: flex;
+        text-align: left;
+        background-color:  rgba(255, 255, 255, 0.2);
+        margin-top: 88px;
+        border-radius: 50px;
+    }
+    .creative-left{
+        margin-top: 120px;
+        margin-right: 50px;
+    }
+    .creative-left h1{
+        font-size: 44px;
+        font-weight: 900;
+        color: white;
+        margin-left: 48px;
+    }
+
+    .creative-left p{
+        color:  rgba(255, 255, 255, 0.5);
+        margin-left: 48px;
+    }
+    .creative-right{ 
+        /* margin-top: 88px; */
+        margin-right: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .creative-right img{
+        width: 40vw;
+        display: flex;
+    }
+
     .sec7 h1 {
         font-size: 28px;
-        margin-left: 20px;
+        margin-left: 120px;
         margin-top: 50px;
-        text-align: center;
+        text-align: left;
     }
 
     .sec7 p {
         font-size: 14px;
-        margin-left: 20px;
+        margin-left: 120px;
         margin-top: 10px;
-        text-align: center;
+        text-align: left;
     }
 
     .sec8 {
@@ -197,11 +236,19 @@
     .sec8-table {
         margin: 0;
         width: 100%;
+        margin-left: 150px;
     }
 
     .sec8-chart {
         margin-top: 20px;
         margin-left: 0;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+
+    .sec8-chart h1{
+        font-weight: 900;
+        font-size: 28px;
     }
 
     table {

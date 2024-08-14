@@ -13,6 +13,7 @@ body{
 /* sec-1 */
 .sec-1{
     background: linear-gradient(180.00deg, rgba(79, 72, 72, 0.506),rgba(34, 33, 33, 0.341) 100%);
+    margin-bottom: 150px;
 }
 /* nav starts here */
 .nav-main{
@@ -99,18 +100,43 @@ body{
  background-color: rgba(61, 56, 56, 0.565);
  border: 1px solid rgb(255, 255, 255);
 }
-
+.sec1-right img{
+    position: relative;
+}
 .sec1-right{
   margin-top: 120px;
-  margin-right: 120px;
+  margin-right: 90px;
 } 
 
+ .box1{
+    width: 170px;
+    height: 80px;
+    left: 180px;
+    top: -360px;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.box2{
+    width: 170px;
+    height: 80px;
+    left: -120px;
+    top: -210px;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    color: white;
+     position: relative;
+    text-align: center;
+}
 
 /* section-2 */
 
 .sec-2{
     text-align: center;
-    margin-top: 51px;
+    margin-top: 90px;
     align-items: center;
 
 }
@@ -223,6 +249,41 @@ body{
      height: 200px;
      width: 100%;
  }
+
+
+ /* creative section  */
+
+.creative{
+    display: flex;
+    text-align: left;
+    background-color:  rgba(255, 255, 255, 0.2);
+    margin-top: 88px;
+    border-radius: 50px;
+}
+.creative-left{
+    margin-top: 120px;
+}
+.creative-left h1{
+    font-size: 44px;
+    font-weight: 900;
+    color: white;
+    margin-left: 88px;
+}
+
+.creative-left p{
+    color:  rgba(255, 255, 255, 0.5);
+    margin-left: 88px;
+}
+.creative-right{ 
+    /* margin-top: 88px; */
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.creative-right img{
+   width: 20vw;
+}
+
 
  /* sec 7 */
 
